@@ -8,4 +8,5 @@ public class CommPool {
      * 固定线程池
      */
     public final static ExecutorService THREAD_POOL = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() * 2);
+
 }
